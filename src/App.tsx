@@ -1,14 +1,12 @@
-import { Header } from 'components/Header/header';
-import { Home } from 'pages/Home/home';
-import './assets/styles/custom.scss';
-import './App.scss';
+import { Routes } from "Routes";
+import "./assets/styles/custom.scss";
+import "./App.scss";
 
 function App() {
   return (
-    <>
-    <Header />
-    <Home />
-    </>
+    <div>
+      <Routes />
+    </div>
   );
 }
 
