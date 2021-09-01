@@ -1,10 +1,14 @@
+import { Header } from 'components/Header/header';
+import { Home } from 'pages/Home/home';
+import './assets/styles/custom.scss';
 import './App.scss';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+    <Header />
+    <Home />
+    </>
   );
 }
 
