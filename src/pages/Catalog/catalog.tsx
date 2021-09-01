@@ -1,7 +1,10 @@
+import { Card } from "components/Card/card";
+import { Search } from "components/Search/search";
+
 export function Catalog() {
   return (
-    <div>
-      <h1>Hello, Catalog!</h1>
-    </div>
-  )
+    <main className="m-2 m-md-4">
+      <Card children={<Search />} color={"bg-light"} hasShadow={false} />
+    </main>
+  );
 }
