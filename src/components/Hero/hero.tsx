@@ -8,8 +8,8 @@ export function Hero(){
         alt="Carro mais top"
         className="col-10 col-md-6 my-4"
       />
-      <h2 className="text-light">O carro perfeito para você</h2>
-      <p className="text-light px-4">
+      <p className="text-light fs-3 fw-bold">O carro perfeito para você</p>
+      <p className="text-light px-2">
         Conheça nossos carros e dê mais um passo na realização do seu sonho
       </p>
     </div>
