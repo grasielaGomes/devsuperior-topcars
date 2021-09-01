@@ -6,7 +6,8 @@ $theme-colors: (
 
 $body-bg: #e5e5e5;
 $body-color: #000000;
-$navbar-light-toggler-border-color: #00285f;
+$navbar-light-toggler-border-color: #f78b00;
 $navbar-light-color: #00285f;
+$border-radius: 0.7rem;
 
 @import "~bootstrap/scss/bootstrap.scss";
