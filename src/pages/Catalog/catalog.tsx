@@ -4,10 +4,24 @@ import { Search } from "components/Search/search";
 
 export function Catalog() {
   return (
-    <main className="m-2 m-md-4">
+    <main className="m-2 m-sm-4 d-grid gap-2 gap-sm-4">
       <Card children={<Search />} color={"bg-light"} hasShadow={false} />
-      <Card children={<Product />} color={"bg-light"} hasShadow={false} />
-      <Card children={<Product />} color={"bg-light"} hasShadow={false} />
+      <section>
+        <div className="row">
+          <div className="col-sm-6 mb-2 mb-sm-4">
+            <Card children={<Product />} color={"bg-light"} hasShadow={false} />
+          </div>
+          <div className="col-sm-6 mb-2 mb-sm-4">
+            <Card children={<Product />} color={"bg-light"} hasShadow={false} />
+          </div>
+          <div className="col-sm-6 mb-2 mb-sm-4">
+            <Card children={<Product />} color={"bg-light"} hasShadow={false} />
+          </div>
+          <div className="col-sm-6 mb-2 mb-sm-4">
+            <Card children={<Product />} color={"bg-light"} hasShadow={false} />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

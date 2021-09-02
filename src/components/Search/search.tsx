@@ -1,6 +1,6 @@
 export function Search() {
   return (
-    <div className="input-group py-4 px-2">
+    <div className="input-group py-4 px-2 py-sm-5 px-sm-4">
       <input
         type="text"
         className="form-control bg-white"

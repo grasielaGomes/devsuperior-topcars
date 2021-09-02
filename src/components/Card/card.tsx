@@ -9,7 +9,7 @@ interface CardProps {
 export function Card({ children, color, hasShadow }: CardProps) {
   return (
     <div
-      className={`card rounded mb-3 ${
+      className={`card ${
         hasShadow ? "shadow" : "shadow-none"
       } text-center ${color}`}
     >

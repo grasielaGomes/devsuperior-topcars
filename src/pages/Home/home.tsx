@@ -4,7 +4,7 @@ import { Hero } from 'components/Hero/hero';
 
 export function Home() {
   return (
-    <main className="m-2 m-md-4">
+    <main className="m-2 m-md-4 d-grid gap-2">
       <Card children={<Hero />} color={"bg-primary"} hasShadow={true} />
       <Card children={<CallAction />} color={"bg-light"} hasShadow={false} />
     </main>
