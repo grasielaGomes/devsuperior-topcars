@@ -15,6 +15,7 @@
     }
   }
 
+
   body {
     background: var(--gray-900);
     color: var(--white);
@@ -28,13 +29,18 @@
     font: 400 1rem "Roboto", sans-serif;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
+  h3 {
+    font-size: 1.5rem;
+    @media (min-width: 576px) {
+      font-size: 2.5rem;
+    }
+  }
+
   h6 {
-    font-weight: 700;
+    font-size: 1rem;
+    @media (min-width: 576px) {
+      font-size: 1.2rem;
+    }
   }
 
   button {
