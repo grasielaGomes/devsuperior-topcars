@@ -2,11 +2,14 @@ import { NavLink } from "react-router-dom";
 
 export function CallAction(){
   return (
-    <div className="pt-4 pb-2">
-      <NavLink to="/products" className="btn bg-primary px-5 py-2 mb-2 text-uppercase text-light fw-bold">
+    <div className="py-4 py-sm-5 d-sm-flex justify-content-center gap-3 align-items-center">
+      <NavLink
+        to="/products"
+        className="btn bg-primary px-5 py-2 text-uppercase text-light fw-bold"
+      >
         Ver catálogo
       </NavLink>
-      <p className="fs-6 text-black-50">Comece agora a navegar</p>
+      <h6 className="text-black-50 mt-2">Comece agora a navegar</h6>
     </div>
   );
 }
