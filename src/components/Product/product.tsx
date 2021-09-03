@@ -6,7 +6,7 @@ export function Product() {
       <img
         src={cardImg}
         alt="Carro mais top"
-        className="col-10 col-md-6 mb-2"
+        className="col-10 mb-2"
       />
       <div className="px-2">
         <p className="fs-4 fw-bold">Audi Supra TT</p>
