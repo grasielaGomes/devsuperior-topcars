@@ -8,16 +8,16 @@ export function Catalog() {
       <Card children={<Search />} color={"bg-light"} hasShadow={false} />
       <section>
         <div className="row">
-          <div className="col-sm-6 mb-2 mb-sm-4">
+          <div className="col-sm-6 col-lg-4 mb-2 mb-sm-4">
             <Card children={<Product />} color={"bg-light"} hasShadow={false} />
           </div>
-          <div className="col-sm-6 mb-2 mb-sm-4">
+          <div className="col-sm-6 col-lg-4 mb-2 mb-sm-4">
             <Card children={<Product />} color={"bg-light"} hasShadow={false} />
           </div>
-          <div className="col-sm-6 mb-2 mb-sm-4">
+          <div className="col-sm-6 col-lg-4 mb-2 mb-sm-4">
             <Card children={<Product />} color={"bg-light"} hasShadow={false} />
           </div>
-          <div className="col-sm-6 mb-2 mb-sm-4">
+          <div className="col-sm-6 col-lg-4 mb-2 mb-sm-4">
             <Card children={<Product />} color={"bg-light"} hasShadow={false} />
           </div>
         </div>
