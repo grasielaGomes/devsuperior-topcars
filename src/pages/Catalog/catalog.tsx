@@ -5,7 +5,7 @@ import { Search } from "components/Search/search";
 export function Catalog() {
   return (
     <main className="container-xl">
-      <div className="mt-2 mt-sm-4 mt-md-0 p-md-4 d-grid gap-2 gap-sm-4 col-xl-10 mx-xl-auto">
+      <div className="mt-2 mt-sm-4 mt-md-0 p-md-4 d-grid gap-2 gap-sm-4 col-xl-11 col-xxl-10 mx-xl-auto">
         <header>
           <Card children={<Search />} color={"bg-light"} hasShadow={false} />
         </header>
